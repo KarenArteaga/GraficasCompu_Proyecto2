@@ -8,6 +8,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2196092683734514905, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: rigidBody
+      value: 
+      objectReference: {fileID: 6592419491460079377}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Size.x
+      value: 0.60004354
+      objectReference: {fileID: 0}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5920074
+      objectReference: {fileID: 0}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Size.z
+      value: 0.47839496
+      objectReference: {fileID: 0}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Center.x
+      value: 3.8237185e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Center.y
+      value: 0.0040178197
+      objectReference: {fileID: 0}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Center.z
+      value: 0.064484216
+      objectReference: {fileID: 0}
     - target: {fileID: 2733155412054932465, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_Name
       value: Fig19
