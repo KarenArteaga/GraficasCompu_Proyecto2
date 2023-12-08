@@ -13,6 +13,7 @@ public class EsferPrueba : MonoBehaviour
     [SerializeField] private GameObject pared;
     private GameObject figurasHIER;
 
+
     // Start is called before the first frame update
     private float[] coords = {
         //  x       z       rotx    roty      rotz
@@ -60,6 +61,7 @@ public class EsferPrueba : MonoBehaviour
 
     private int indice = 0;
     private int figura = 0;
+    private int paredActivada = 0;
 
     void Start()
     {
@@ -71,10 +73,13 @@ public class EsferPrueba : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         CrearFigura();
         VerificarAltura();
         TirarFiguras();
+
     }
+
 
     void CrearFigura()
     {
@@ -132,9 +137,13 @@ public class EsferPrueba : MonoBehaviour
 
     public void Pared()
     {
-        GameObject paredInst = Instantiate(pared, new Vector3(2.2f, 3.5f, -8.2f),
-            Quaternion.Euler(0.0f, 180.0f, 0.0f));
-        paredInst.transform.parent = figurasHIER.gameObject.transform;
+        if (paredActivada == 0)
+        {
+            GameObject paredInst = Instantiate(pared, new Vector3(2.2f, 3.5f, -8.2f),
+                Quaternion.Euler(0.0f, 180.0f, 0.0f));
+            paredInst.transform.parent = figurasHIER.gameObject.transform;
+            paredActivada = 1;
+        }
     }
 
 }
