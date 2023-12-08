@@ -5,6 +5,7 @@ using UnityEngine;
 public class Figuras : MonoBehaviour
 {
     [SerializeField] private Rigidbody rigidBody;
+    private int explotar = 0;
 
     public Rigidbody Rigidbody
     {
@@ -21,13 +22,21 @@ public class Figuras : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        if (explotar == 0) 
+            rigidBody.isKinematic = true;
+        else if (explotar == 1)
+            rigidBody.isKinematic = false;
+    }
 
 
     public void Explotar(Vector3 pos)
     {
-        rigidBody.AddExplosionForce(10, pos, 100, 10, ForceMode.Impulse);
+        explotar = 1;
+        rigidBody.isKinematic = false;
+        rigidBody.AddExplosionForce(3, pos, 100, 10, ForceMode.Impulse);
     }
 }

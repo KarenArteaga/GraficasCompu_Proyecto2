@@ -10,27 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5012521887393798237, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1682608
+      value: 2.071
       objectReference: {fileID: 0}
     - target: {fileID: 5012521887393798237, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1682608
+      value: 2.07
       objectReference: {fileID: 0}
     - target: {fileID: 5012521887393798237, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.8400109
+      value: 3.261
       objectReference: {fileID: 0}
     - target: {fileID: 5012521887393798237, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.314
+      value: 0.3187
       objectReference: {fileID: 0}
     - target: {fileID: 5012521887393798237, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.768
+      value: 2.8549
       objectReference: {fileID: 0}
     - target: {fileID: 5012521887393798237, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.421
+      value: -18.437
       objectReference: {fileID: 0}
     - target: {fileID: 5012521887393798237, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -68,6 +68,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d5621f5f2b1fa41479597c56a53c0648, type: 2}
+    - target: {fileID: 7796491836476539883, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.60004365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796491836476539883, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
+      propertyPath: m_Size.z
+      value: 0.115538076
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796491836476539883, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
+      propertyPath: m_Center.x
+      value: 1.158975e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796491836476539883, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
+      propertyPath: m_Center.y
+      value: -0.000000028874604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796491836476539883, guid: 9fdbb93adc0974d599d675c3dade333d, type: 3}
+      propertyPath: m_Center.z
+      value: 0.051768173
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

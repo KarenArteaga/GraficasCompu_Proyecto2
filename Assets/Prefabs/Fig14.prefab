@@ -14,23 +14,31 @@ PrefabInstance:
       objectReference: {fileID: -3971253688740449467}
     - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_Size.x
-      value: 0.61995614
+      value: 0.6199561
+      objectReference: {fileID: 0}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Size.y
+      value: 0.60072887
       objectReference: {fileID: 0}
     - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_Size.z
-      value: 0.37279385
+      value: 0.3095769
+      objectReference: {fileID: 0}
+    - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_Center.x
-      value: 0.0055912575
+      value: 0.0055907033
       objectReference: {fileID: 0}
     - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_Center.y
-      value: -0.000000041368722
+      value: 0.0003491305
       objectReference: {fileID: 0}
     - target: {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_Center.z
-      value: 0.121557906
+      value: 0.15316705
       objectReference: {fileID: 0}
     - target: {fileID: 2733155412054932465, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_Name
@@ -42,11 +50,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3361320232756453707, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.0023043
+      value: 3.4273212
       objectReference: {fileID: 0}
     - target: {fileID: 3361320232756453707, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.9047427
+      value: 3.3159485
+      objectReference: {fileID: 0}
+    - target: {fileID: 3361320232756453707, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.3159482
       objectReference: {fileID: 0}
     - target: {fileID: 3361320232756453707, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -92,13 +104,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 42767f7423b854e65b6ec26b1f5e8aac, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 506502042351090429, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2733155412054932465, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: -3971253688740449467}
+    - targetCorrespondingSourceObject: {fileID: 2733155412054932465, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1551219269970730415}
   m_SourcePrefab: {fileID: 100100000, guid: 441676f6f752c41e2b0dc35c5be558c6, type: 3}
 --- !u!1 &6294907978088656456 stripped
 GameObject:
@@ -132,3 +148,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1551219269970730415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294907978088656456}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5817794, y: 0.5985093, z: 0.1741772}
+  m_Center: {x: -0.009138646, y: -0.00075683254, z: 0.082633995}

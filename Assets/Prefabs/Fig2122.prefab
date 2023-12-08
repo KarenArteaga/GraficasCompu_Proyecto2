@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4825471316304867522}
   - component: {fileID: 7133743010435751303}
   - component: {fileID: -5747417062253401921}
-  - component: {fileID: 8380846577880120606}
+  - component: {fileID: 344286714085188299}
   m_Layer: 0
   m_Name: Fig2122
   m_TagString: Figura
@@ -148,8 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 7133743010435751303}
---- !u!65 &8380846577880120606
-BoxCollider:
+--- !u!135 &344286714085188299
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -167,5 +167,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.0089169, z: 1.0044546}
-  m_Center: {x: 0, y: 0.004458365, z: -0.0022268596}
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
